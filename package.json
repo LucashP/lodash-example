@@ -1,0 +1,23 @@
+{
+  "name": "lodash-example",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "pula.lukasz@gmail.com",
+  "private": true,
+  "description": "a simple application created to learn lodash library",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "eslint": "^5.0.1",
+    "lodash": "^4.17.10",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
