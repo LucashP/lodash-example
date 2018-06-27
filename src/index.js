@@ -1,6 +1,12 @@
-import _ from 'lodash';
+import {_chunk} from './array/_chunk';
+import {_compact} from './array/_compact';
+import {_concat} from './array/_concat';
 
-console.log(_.chunk(['a', 'b', 'c', 'd'], 2));
-console.log(_.chunk(['a', 'b', 'c', 'd'], 3));
-console.log(_.chunk(['a', 'b', 'c', 'd'], 1));
-console.log(_.chunk(['a', 'b', 'c', 'd', 'e'], 2));
+console.log('#################### _.chunk #########################');
+_chunk();
+
+console.log('#################### _.compact #########################');
+_compact();
+
+console.log('#################### _.concat #########################');
+_concat();
