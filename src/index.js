@@ -1,6 +1,6 @@
-import {_findIndex} from './array/_findIndex';
-import {_findLastIndex} from './array/_findLastIndex';
-import {_first} from './array/_first';
+import {_flatten} from './array/_flatten';
+import {_flattenDeep} from './array/_flattenDeep';
+import {_flattenDepth} from './array/_flattenDepth';
 
 // console.log('#################### _.chunk #########################');
 // _chunk();
@@ -34,12 +34,21 @@ import {_first} from './array/_first';
 //
 // console.log('#################### _.fill #########################');
 // _fill();
+//
+// console.log('#################### _.findIndex #########################');
+// _findIndex();
+//
+// console.log('#################### _.findLastIndex #########################');
+// _findLastIndex();
+//
+// console.log('#################### _.first #########################');
+// _first();
 
-console.log('#################### _.findIndex #########################');
-_findIndex();
+console.log('#################### _.flatten #########################');
+_flatten();
 
-console.log('#################### _.findLastIndex #########################');
-_findLastIndex();
+console.log('#################### _.flattenDeep #########################');
+_flattenDeep();
 
-console.log('#################### _.first #########################');
-_first();
+console.log('#################### _.flattenDepth #########################');
+_flattenDepth();
