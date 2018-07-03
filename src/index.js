@@ -1,4 +1,6 @@
-import {_fill} from './array/_fill';
+import {_findIndex} from './array/_findIndex';
+import {_findLastIndex} from './array/_findLastIndex';
+import {_first} from './array/_first';
 
 // console.log('#################### _.chunk #########################');
 // _chunk();
@@ -29,8 +31,15 @@ import {_fill} from './array/_fill';
 //
 // console.log('#################### _.dropWhile #########################');
 // _dropWhile();
+//
+// console.log('#################### _.fill #########################');
+// _fill();
 
+console.log('#################### _.findIndex #########################');
+_findIndex();
 
-console.log('#################### _.fill #########################');
-_fill();
+console.log('#################### _.findLastIndex #########################');
+_findLastIndex();
 
+console.log('#################### _.first #########################');
+_first();
