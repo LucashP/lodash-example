@@ -1,6 +1,5 @@
-import {_flatten} from './array/_flatten';
-import {_flattenDeep} from './array/_flattenDeep';
-import {_flattenDepth} from './array/_flattenDepth';
+import {_fromPairs} from './array/_fromPairs';
+import {_head} from './array/_head';
 
 // console.log('#################### _.chunk #########################');
 // _chunk();
@@ -43,12 +42,15 @@ import {_flattenDepth} from './array/_flattenDepth';
 //
 // console.log('#################### _.first #########################');
 // _first();
+//
+// console.log('#################### _.flatten #########################');
+// _flatten();
+//
+// console.log('#################### _.flattenDeep #########################');
+// _flattenDeep();
+//
+// console.log('#################### _.flattenDepth #########################');
+// _flattenDepth();
 
-console.log('#################### _.flatten #########################');
-_flatten();
-
-console.log('#################### _.flattenDeep #########################');
-_flattenDeep();
-
-console.log('#################### _.flattenDepth #########################');
-_flattenDepth();
+_fromPairs();
+_head();
