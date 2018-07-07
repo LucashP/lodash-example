@@ -1,5 +1,5 @@
-import {_fromPairs} from './array/_fromPairs';
-import {_head} from './array/_head';
+import {_indexOf} from './array/_indexOf';
+import {_initial} from './array/_initial';
 
 // console.log('#################### _.chunk #########################');
 // _chunk();
@@ -52,5 +52,8 @@ import {_head} from './array/_head';
 // console.log('#################### _.flattenDepth #########################');
 // _flattenDepth();
 
-_fromPairs();
-_head();
+// _fromPairs();
+// _head();
+
+_indexOf();
+_initial();
