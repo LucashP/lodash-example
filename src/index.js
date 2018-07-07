@@ -1,5 +1,5 @@
-import {_indexOf} from './array/_indexOf';
-import {_initial} from './array/_initial';
+import {_intersection} from './array/_intersection';
+import {_intersectionBy} from './array/_intersectionBy';
 
 // console.log('#################### _.chunk #########################');
 // _chunk();
@@ -54,6 +54,9 @@ import {_initial} from './array/_initial';
 
 // _fromPairs();
 // _head();
+//
+// _indexOf();
+// _initial();
 
-_indexOf();
-_initial();
+_intersection();
+_intersectionBy();
