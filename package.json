@@ -9,7 +9,8 @@
     "build": "webpack",
     "start:dev": "webpack-dev-server",
     "lint": "eslint src",
-    "test": "jasmine"
+    "test": "jasmine --config=spec/config/jasmine.json",
+    "example-test": "jasmine spec/jasmine_examples/PlayerSpec.js --config=spec/config/jasmine.json"
   },
   "devDependencies": {
     "clean-webpack-plugin": "0.1.19",
