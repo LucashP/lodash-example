@@ -3,13 +3,24 @@
     "ecmaVersion": 6,
     "sourceType": "module"
   },
+  "plugins": [
+    "jasmine"
+  ],
   "env": {
     "es6": true,
     "node": true,
-    "browser": true
+    "browser": true,
+    "jasmine": true
   },
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "plugin:jasmine/recommended"
+  ],
   "rules": {
+    "indent": [
+      "error",
+      4
+    ],
     "semi": [
       "error",
       "always"

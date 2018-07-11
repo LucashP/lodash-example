@@ -36,7 +36,7 @@ fabric.properties
 
 /node_modules
 /dist
+/_test
 .idea
-*.iml
 package-lock.json
 
