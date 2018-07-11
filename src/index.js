@@ -1,5 +1,6 @@
 import {_intersection} from './array/_intersection';
 import {_intersectionBy} from './array/_intersectionBy';
+import {_intersectionWith} from './array/_intersectionWith';
 
 // console.log('#################### _.chunk #########################');
 // _chunk();
@@ -60,3 +61,4 @@ import {_intersectionBy} from './array/_intersectionBy';
 
 _intersection();
 _intersectionBy();
+_intersectionWith();
