@@ -1,16 +1,14 @@
+import {_chunk} from './array/_chunk';
+import {_compact} from './array/_compact';
+import {_concat} from './array/_concat';
 import {_intersection} from './array/_intersection';
 import {_intersectionBy} from './array/_intersectionBy';
 import {_intersectionWith} from './array/_intersectionWith';
 
-// console.log('#################### _.chunk #########################');
-// _chunk();
-//
-// console.log('#################### _.compact #########################');
-// _compact();
-//
-// console.log('#################### _.concat #########################');
-// _concat();
-//
+_chunk();
+_compact();
+_concat();
+
 // console.log('#################### _.difference #########################');
 // _difference();
 //

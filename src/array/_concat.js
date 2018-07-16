@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
 export function _concat() {
+    console.log('#################### _.concat #########################');
+
     let array = [1];
     let array2 = [4];
     let other = _.concat(array, 2, [3], [array2]);

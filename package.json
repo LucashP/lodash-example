@@ -8,10 +8,10 @@
   "scripts": {
     "build": "webpack",
     "start:dev": "webpack-dev-server",
-    "lint": "eslint src spec --fix",
+    "lint": "eslint src spec",
     "test": "jasmine --config=spec/config/jasmine.json",
-    "example-test": "jasmine spec/jasmine_examples/PlayerSpec.js --config=spec/config/jasmine.json",
-    "first-test": "jasmine spec/your-first-suite/first-suite.spec.js --config=spec/config/jasmine.json"
+    "first-test": "jasmine spec/your-first-suite/first-suite.spec.js --config=spec/config/jasmine.json",
+    "lodash-test": "jasmine --config=spec/config/lodash.json"
   },
   "devDependencies": {
     "clean-webpack-plugin": "0.1.19",
