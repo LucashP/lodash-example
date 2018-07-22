@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
 export function _drop() {
+    console.log('#################### _.drop #########################');
+
     console.log(_.drop([1, 2, 3]));
     console.log(_.drop([1, 2, 3], 2));
     console.log(_.drop([1, 2, 3], 5));

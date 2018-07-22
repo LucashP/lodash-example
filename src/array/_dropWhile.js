@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
 export function _dropWhile() {
+    console.log('#################### _.dropWhile #########################');
+
     let users = [
         {'user': 'barney', 'active': false},
         {'user': 'fred', 'active': false},

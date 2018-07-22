@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
 export function _dropRightWhile() {
+    console.log('#################### _.dropRightWhile #########################');
+
     let users = [
         {'user': 'barney', 'active': true},
         {'user': 'fred', 'active': false},

@@ -7,6 +7,10 @@ import {_differenceWith} from './array/_differenceWith';
 import {_intersection} from './array/_intersection';
 import {_intersectionBy} from './array/_intersectionBy';
 import {_intersectionWith} from './array/_intersectionWith';
+import {_drop} from './array/_drop';
+import {_dropRight} from './array/_dropRight';
+import {_dropRightWhile} from './array/_dropRightWhile';
+import {_dropWhile} from './array/_dropWhile';
 
 _chunk();
 _compact();
@@ -14,19 +18,11 @@ _concat();
 _difference();
 _differenceBy();
 _differenceWith();
-//
-// console.log('#################### _.drop #########################');
-// _drop();
-//
-// console.log('#################### _.dropRight #########################');
-// _dropRight();
-//
-// console.log('#################### _.dropRightWhile #########################');
-// _dropRightWhile();
-//
-// console.log('#################### _.dropWhile #########################');
-// _dropWhile();
-//
+_drop();
+_dropRight();
+_dropRightWhile();
+_dropWhile();
+
 // console.log('#################### _.fill #########################');
 // _fill();
 //
