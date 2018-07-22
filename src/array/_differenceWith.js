@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
 export function _differenceWith() {
+    console.log('#################### _.differenceWith #########################');
+
     const objects1 = [{'x': 1, 'y': 2}, {'x': 2, 'y': 1}];
     console.log(_.differenceWith(objects1, [{'x': 1, 'y': 2}], _.isEqual));
 
