@@ -15,6 +15,9 @@ import {_fill} from './array/_fill';
 import {_findIndex} from './array/_findIndex';
 import {_findLastIndex} from './array/_findLastIndex';
 import {_first} from './array/_first';
+import {_flatten} from './array/_flatten';
+import {_flattenDeep} from './array/_flattenDeep';
+import {_flattenDepth} from './array/_flattenDepth';
 
 _chunk();
 _compact();
@@ -30,20 +33,12 @@ _fill();
 _findIndex();
 _findLastIndex();
 _first();
-
-//
-// console.log('#################### _.flatten #########################');
-// _flatten();
-//
-// console.log('#################### _.flattenDeep #########################');
-// _flattenDeep();
-//
-// console.log('#################### _.flattenDepth #########################');
-// _flattenDepth();
+_flatten();
+_flattenDeep();
+_flattenDepth();
 
 // _fromPairs();
 // _head();
-//
 // _indexOf();
 // _initial();
 

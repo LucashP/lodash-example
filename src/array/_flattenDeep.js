@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
 export function _flattenDeep() {
+    console.log('#################### _.flattenDeep #########################');
+
     console.log(_.flattenDeep([1, [2, [3, [4]], 5]]));
     // => [1, 2, 3, 4, 5]
 
