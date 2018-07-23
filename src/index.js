@@ -11,6 +11,10 @@ import {_drop} from './array/_drop';
 import {_dropRight} from './array/_dropRight';
 import {_dropRightWhile} from './array/_dropRightWhile';
 import {_dropWhile} from './array/_dropWhile';
+import {_fill} from './array/_fill';
+import {_findIndex} from './array/_findIndex';
+import {_findLastIndex} from './array/_findLastIndex';
+import {_first} from './array/_first';
 
 _chunk();
 _compact();
@@ -22,18 +26,11 @@ _drop();
 _dropRight();
 _dropRightWhile();
 _dropWhile();
+_fill();
+_findIndex();
+_findLastIndex();
+_first();
 
-// console.log('#################### _.fill #########################');
-// _fill();
-//
-// console.log('#################### _.findIndex #########################');
-// _findIndex();
-//
-// console.log('#################### _.findLastIndex #########################');
-// _findLastIndex();
-//
-// console.log('#################### _.first #########################');
-// _first();
 //
 // console.log('#################### _.flatten #########################');
 // _flatten();

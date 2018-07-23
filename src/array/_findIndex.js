@@ -1,6 +1,8 @@
 import _ from 'lodash';
 
 export function _findIndex() {
+    console.log('#################### _.findIndex #########################');
+
     const users = [
         {'user': 'barney', 'active': false},
         {'user': 'fred', 'active': false},

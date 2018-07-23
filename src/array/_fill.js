@@ -1,6 +1,7 @@
 import _ from 'lodash';
 
 export function _fill() {
+    console.log('#################### _.fill #########################');
     let array = [1, 2, 3];
 
     console.log(_.fill(array, 'a'));

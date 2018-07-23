@@ -1,10 +1,12 @@
 import _ from 'lodash';
 
 export function _findLastIndex() {
+    console.log('#################### _.findLastIndex #########################');
+
     const users = [
-        { 'user': 'barney',  'active': true },
-        { 'user': 'fred',    'active': false },
-        { 'user': 'pebbles', 'active': false }
+        {'user': 'barney', 'active': true},
+        {'user': 'fred', 'active': false},
+        {'user': 'pebbles', 'active': false}
     ];
 
     console.log(_.findLastIndex(users, function (o) {
@@ -13,7 +15,7 @@ export function _findLastIndex() {
     // => 2
 
     // The `_.matches` iteratee shorthand.
-    console.log(_.findLastIndex(users, { 'user': 'barney', 'active': true }));
+    console.log(_.findLastIndex(users, {'user': 'barney', 'active': true}));
     // => 0
 
     // The `_.matchesProperty` iteratee shorthand.
