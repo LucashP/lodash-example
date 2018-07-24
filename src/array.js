@@ -1,0 +1,26 @@
+import * as arrayModule from './array/index';
+
+arrayModule._chunk();
+arrayModule._compact();
+arrayModule._concat();
+arrayModule._difference();
+arrayModule._differenceBy();
+arrayModule._differenceWith();
+arrayModule._drop();
+arrayModule._dropRight();
+arrayModule._dropRightWhile();
+arrayModule._dropWhile();
+arrayModule._fill();
+arrayModule._findIndex();
+arrayModule._findLastIndex();
+arrayModule._first();
+arrayModule._flatten();
+arrayModule._flattenDeep();
+arrayModule._flattenDepth();
+arrayModule._fromPairs();
+arrayModule._head();
+arrayModule._indexOf();
+arrayModule._initial();
+arrayModule._intersection();
+arrayModule._intersectionBy();
+// arrayModule._intersectionWith();

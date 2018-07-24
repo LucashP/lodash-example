@@ -4,8 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    // entry: ['./src/index.js', './src/test.js'],
-    entry: ['./src/index.js'],
+    entry: ['./src/array.js'],
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist')
@@ -18,6 +17,18 @@ module.exports = {
             toType: 'file'
         }])
     ],
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+                query: {
+                    presets: ['env']
+                }
+            }
+        ]
+    },
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
