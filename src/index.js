@@ -18,6 +18,10 @@ import {_first} from './array/_first';
 import {_flatten} from './array/_flatten';
 import {_flattenDeep} from './array/_flattenDeep';
 import {_flattenDepth} from './array/_flattenDepth';
+import {_fromPairs} from './array/_fromPairs';
+import {_head} from './array/_head';
+import {_indexOf} from './array/_indexOf';
+import {_initial} from './array/_initial';
 
 _chunk();
 _compact();
@@ -36,12 +40,10 @@ _first();
 _flatten();
 _flattenDeep();
 _flattenDepth();
-
-// _fromPairs();
-// _head();
-// _indexOf();
-// _initial();
-
+_fromPairs();
+_head();
+_indexOf();
+_initial();
 _intersection();
 _intersectionBy();
 _intersectionWith();
