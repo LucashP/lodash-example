@@ -24,3 +24,5 @@ arrayModule._initial();
 arrayModule._intersection();
 arrayModule._intersectionBy();
 arrayModule._intersectionWith();
+arrayModule._join();
+arrayModule._last();

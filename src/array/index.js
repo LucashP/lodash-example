@@ -22,3 +22,5 @@ export {_initial} from './_initial';
 export {_intersection} from './_intersection';
 export {_intersectionBy} from './_intersectionBy';
 export {_intersectionWith} from './_intersectionWith';
+export {_join} from './_join';
+export {_last} from './_last';
