@@ -28,3 +28,8 @@ arrayModule._join();
 arrayModule._last();
 arrayModule._lastIndexOf();
 arrayModule._nth();
+arrayModule._pull();
+arrayModule._pullAll();
+arrayModule._pullAllBy();
+arrayModule._pullAllWith();
+arrayModule._pullAt();

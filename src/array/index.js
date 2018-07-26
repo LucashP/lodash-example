@@ -26,3 +26,8 @@ export {_join} from './_join';
 export {_last} from './_last';
 export {_lastIndexOf} from './_lastIndexOf';
 export {_nth} from './_nth';
+export {_pull} from './_pull';
+export {_pullAll} from './_pullAll';
+export {_pullAllBy} from './_pullAllBy';
+export {_pullAllWith} from './_pullAllWith';
+export {_pullAt} from './_pullAt';
