@@ -24,3 +24,5 @@ export {_intersectionBy} from './_intersectionBy';
 export {_intersectionWith} from './_intersectionWith';
 export {_join} from './_join';
 export {_last} from './_last';
+export {_lastIndexOf} from './_lastIndexOf';
+export {_nth} from './_nth';

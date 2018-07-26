@@ -26,3 +26,5 @@ arrayModule._intersectionBy();
 arrayModule._intersectionWith();
 arrayModule._join();
 arrayModule._last();
+arrayModule._lastIndexOf();
+arrayModule._nth();
