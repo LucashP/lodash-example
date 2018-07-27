@@ -31,3 +31,7 @@ export {_pullAll} from './_pullAll';
 export {_pullAllBy} from './_pullAllBy';
 export {_pullAllWith} from './_pullAllWith';
 export {_pullAt} from './_pullAt';
+export {_remove} from './_remove';
+export {_reverse} from './_reverse';
+export {_slice} from './_slice';
+

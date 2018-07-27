@@ -33,3 +33,6 @@ arrayModule._pullAll();
 arrayModule._pullAllBy();
 arrayModule._pullAllWith();
 arrayModule._pullAt();
+arrayModule._remove();
+arrayModule._reverse();
+arrayModule._slice();
