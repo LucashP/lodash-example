@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: ['./src/array.js'],
+    entry: ['./src/array.js', './src/collection.js'],
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist')

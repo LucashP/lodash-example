@@ -35,3 +35,34 @@ export {_remove} from './_remove';
 export {_reverse} from './_reverse';
 export {_slice} from './_slice';
 
+export {_sortedIndex} from './_sortedIndex';
+export {_sortedIndexBy} from './_sortedIndexBy';
+export {_sortedIndexOf} from './_sortedIndexOf';
+export {_sortedLastIndex} from './_sortedLastIndex';
+export {_sortedLastIndexBy} from './_sortedLastIndexBy';
+export {_sortedLastIndexOf} from './_sortedLastIndexOf';
+
+export {_tail} from './_tail';
+export {_take} from './_take';
+export {_takeRight} from './_takeRight';
+export {_takeRightWhile} from './_takeRightWhile';
+export {_takeWhile} from './_takeWhile';
+
+export {_union} from './_union';
+export {_unionBy} from './_unionBy';
+export {_unionWith} from './_unionWith';
+export {_uniq} from './_uniq';
+export {_uniqBy} from './_uniqBy';
+export {_uniqWith} from './_uniqWith';
+export {_unzip} from './_unzip';
+export {_unzipWith} from './_unzipWith';
+export {_without} from './_without';
+export {_xor} from './_xor';
+export {_xorBy} from './_xorBy';
+export {_xorWith} from './_xorWith';
+
+export {_zip} from './_zip';
+export {_zipObject} from './_zipObject';
+export {_zipObjectDeep} from './_zipObjectDeep';
+export {_zipWith} from './_zipWith';
+

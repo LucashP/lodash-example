@@ -1,0 +1,13 @@
+import _ from 'lodash';
+
+export function _flatMapDepth() {
+    console.log('#################### _.flatMapDepth #########################');
+
+    function duplicate(n) {
+        return [[[n, n]]];
+    }
+
+    console.log(_.flatMapDepth([1, 2], duplicate, 2));
+    // => [1, 1, 2, 2]
+}
+
