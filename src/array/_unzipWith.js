@@ -10,4 +10,3 @@ export function _unzipWith() {
     console.log(_.unzipWith(zipped, _.add));
     // => [3, 30, 300]
 }
-

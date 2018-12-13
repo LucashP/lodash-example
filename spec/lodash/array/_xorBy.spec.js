@@ -2,7 +2,7 @@ import _ from 'lodash';
 
 describe('_.xorBy spec', function () {
 
-    fit('should create symmetric difference of given arrays with provided strategy', function () {
+    it('should create symmetric difference of given arrays with provided strategy', function () {
         // given
         const array1 = [2.1, 1.2];
         const array2 = [2.3, 3.4];
@@ -19,11 +19,10 @@ describe('_.xorBy spec', function () {
         const result3 = _.xorBy(array5, array6, function (value) {
             return value % 2 === 0 ? value : null;
         });
-        console.log(result3)
 
         // then
         expect(result1).toEqual([1.2, 3.4]);
         expect(result2).toEqual([{'x': 2}]);
-        expect(result3).toEqual([1.2, 3.4]);
+        expect(result3).toEqual([2, 4, 14, 22, 6, 10, 44]);
     });
 });
