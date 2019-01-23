@@ -39,5 +39,6 @@ fabric.properties
 /_test
 /coverage
 .idea
+*.iml
 package-lock.json
 
