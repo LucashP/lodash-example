@@ -37,6 +37,7 @@ fabric.properties
 /node_modules
 /dist
 /_test
+/coverage
 .idea
 package-lock.json
 

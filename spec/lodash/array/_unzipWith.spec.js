@@ -2,32 +2,38 @@ import _ from 'lodash';
 
 describe('_.unzipWith spec', function () {
 
-    fit('should exclude all given values', function () {
+    it('should create array with regrouped elements with provided strategy - same dimension', function () {
         // given
-        const array1 = [2, 1, 2, 3];
+        const array = [['a', 1], [2, 'b']];
 
-        const zipped = _.zip([1, 2], [10, 20], [100, 200]);
-        // console.log(zipped);
-        // // => [[1, 10, 100], [2, 20, 200]]
-        //
-        // console.log(_.unzipWith(zipped, _.add));
-        // // => [3, 30, 300]
-
-        console.log(_.unzipWith(zipped, function(test){
-            console.log(test);
-            return test;
-        }));
         // when
-        const result1 = _.without(array1, 1, 2);
-        const result2 = _.without(array1, [1, 2]);
-        const result3 = _.without(array1, 3, 1);
-        const result4 = _.without(array1);
+        const result1 = _.unzipWith(array, _.add);
+        const result2 = _.unzipWith(array, function (...params) {
+            return _.add(...params);
+        });
+        const result3 = _.unzipWith(array, function (...params) {
+            return _.reverse(params);
+        });
 
         // then
-        expect(array1).toEqual([2, 1, 2, 3]);
-        expect(result1).toEqual([3]);
-        expect(result2).toEqual([2, 1, 2, 3]);
-        expect(result3).toEqual([2, 2]);
-        expect(result4).toEqual([2, 1, 2, 3]);
+        expect(array).toEqual([['a', 1], [2, 'b']]);
+        expect(result1).toEqual(['a2', '1b']);
+        expect(result2).toEqual(['a2', '1b']);
+        expect(result3).toEqual([[2, 'a'], ['b', 1]]);
+    });
+
+    it('should create array with regrouped elements with provided strategy - different dimension of elements', function () {
+        // given
+        const array = [[1, 2], [10, 20, 40], [100, 200], [1000, 2000, 3000]];
+
+        // when
+        const result = _.unzipWith(array, function (...params) {
+            return params;
+        });
+
+        // then
+        expect(array).toEqual([[1, 2], [10, 20, 40], [100, 200], [1000, 2000, 3000]]);
+        expect(result).toEqual([[1, 10, 100, 1000], [2, 20, 200, 2000], [undefined, 40, undefined, 3000]]);
+        expect(result).toEqual(_.unzip(array));
     });
 });
