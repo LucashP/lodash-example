@@ -17,18 +17,18 @@ module.exports = {
             toType: 'file'
         }])
     ],
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader',
-                query: {
-                    presets: ['env']
-                }
-            }
-        ]
-    },
+    // module: {
+    //     rules: [
+    //         {
+    //             test: /\.js$/,
+    //             exclude: /node_modules/,
+    //             loader: 'babel-loader',
+    //             query: {
+    //                 presets: ['env']
+    //             }
+    //         }
+    //     ]
+    // },
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
