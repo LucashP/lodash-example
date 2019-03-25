@@ -1,7 +1,7 @@
-const _ = require('./node_modules/lodash');
+const _ = require('../../node_modules/lodash');
 
 // const defaultTestFiles = 'spec/your-first-suite/*.spec.js';
-const defaultTestFiles = 'spec/**/*.spec.js';
+const defaultTestFiles = '../../spec/**/*.spec.js';
 
 class BaseConfiguration {
     constructor(config, testFiles) {

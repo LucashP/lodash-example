@@ -9,10 +9,10 @@
     "build": "webpack",
     "start:dev": "webpack-dev-server",
     "lint": "eslint src spec",
-    "test": "babel-node spec/all-run.js",
-    "lodash-test": "babel-node spec/lodash-run.js",
-    "karma-with-webpack": "node_modules/.bin/karma start karma-with-webpack.conf.js",
-    "karma-with-babelify": "node_modules/.bin/karma start karma-with-babelify.conf.js --single-run"
+    "test": "babel-node config/jasmine/all-run.js",
+    "lodash-test": "babel-node config/jasmine/lodash-run.js",
+    "karma-with-webpack": "node_modules/.bin/karma start config/karma/karma-with-webpack.conf.js",
+    "karma-with-babelify": "node_modules/.bin/karma start config/karma/karma-with-babelify.conf.js --single-run"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",

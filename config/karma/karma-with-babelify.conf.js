@@ -4,13 +4,13 @@ module.exports = function (config) {
         frameworks: ['browserify', 'jasmine'],
         files: [
             {
-                pattern: 'spec/**/*.spec.js',
+                pattern: '../../spec/**/*.spec.js',
                 watched: true
             }
         ],
         exclude: [],
         preprocessors: {
-            'spec/**/*.spec.js': ['browserify']
+            '../../spec/**/*.spec.js': ['browserify']
         },
         coverageReporter: {
             type: 'html'

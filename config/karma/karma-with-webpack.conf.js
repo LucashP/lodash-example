@@ -1,4 +1,4 @@
-const _ = require('./node_modules/lodash');
+const _ = require('../../node_modules/lodash');
 const base = require('./base-karma.conf');
 
 // import _ from 'lodash';
