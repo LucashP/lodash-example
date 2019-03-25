@@ -11,10 +11,11 @@
     "lint": "eslint src spec",
     "test": "babel-node spec/all-run.js",
     "lodash-test": "babel-node spec/lodash-run.js",
-    "karma-with-webpack": "karma start karma-with-webpack.conf.js",
-    "karma-with-babelify": "karma start karma-with-babelify.conf.js"
+    "karma-with-webpack": "node_modules/.bin/karma start karma-with-webpack.conf.js",
+    "karma-with-babelify": "node_modules/.bin/karma start karma-with-babelify.conf.js --single-run"
   },
   "devDependencies": {
+    "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
     "babelify": "8.0.0",
